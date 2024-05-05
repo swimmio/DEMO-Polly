@@ -15,7 +15,7 @@ This document will cover the following aspects of the 'Polly.Extensions' in the 
 `Polly.Extensions` is a project within the DEMO-Polly repo. It contains extension methods for the Polly library, which is a .NET resilience and transient-fault-handling library.
 
 ```xml
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 ```
 
 ---
@@ -62,4 +62,4 @@ public static class PollyServiceCollectionExtensions
 
 *This is an auto-generated document by Swimm AI 🌊 and has not yet been verified by a human*
 
-<SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBREVNTy1Qb2xseSUzQSUzQXN3aW1taW8=" repo-name="DEMO-Polly"><sup>Powered by [Swimm](/)</sup></SwmMeta>
+<SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBREVNTy1Qb2xseSUzQSUzQXN3aW1taW8=" repo-name="DEMO-Polly"><sup>Powered by [Swimm](https://app.swimm.io/)</sup></SwmMeta>
