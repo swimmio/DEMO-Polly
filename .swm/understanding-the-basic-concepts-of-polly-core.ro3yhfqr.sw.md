@@ -12,7 +12,7 @@ Polly Core is the heart of the Polly library, a .NET resilience and transient-fa
 The `Polly.Core.csproj` file is the project file for Polly Core. It defines the target frameworks, assembly title, and other properties. It also includes references to other packages that Polly Core depends on.
 
 ```xml
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>net8.0;net6.0;netstandard2.0;net472;net462</TargetFrameworks>
@@ -124,7 +124,7 @@ public sealed partial class ResiliencePipeline
 The `ResilienceStrategy` is an abstract base class for all proactive resilience strategies. It provides a method `ExecuteCore` that executes a user-provided callback. The callback should not throw any exceptions. Instead, it should convert them to an `Outcome`.
 
 ```c#
-﻿namespace Polly;
+namespace Polly;
 
 /// <summary>
 /// Base class for all proactive resilience strategies.
@@ -191,4 +191,4 @@ public readonly struct Outcome<TResult>
 
 *This is an auto-generated document by Swimm AI 🌊 and has not yet been verified by a human*
 
-<SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBREVNTy1Qb2xseSUzQSUzQXN3aW1taW8=" repo-name="DEMO-Polly"><sup>Powered by [Swimm](/)</sup></SwmMeta>
+<SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBREVNTy1Qb2xseSUzQSUzQXN3aW1taW8=" repo-name="DEMO-Polly"><sup>Powered by [Swimm](https://app.swimm.io/)</sup></SwmMeta>
